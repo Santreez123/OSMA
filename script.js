@@ -13,7 +13,7 @@ window.addEventListener("scroll", ()=> {
     train.style.left = value * 1.5 + "px";
 
     desert_room.style.top = value * .3 + "px";
-    man.style.left = value * .6 + "px";
+    man.style.left = value * .3 + "px";
 
 })
 
@@ -35,6 +35,8 @@ let clacScrollValue = ()=>{
     });
     scrollProgress.style.background = 'conic.gradient(#194eb9 ${scrollValue}%,#67ccff ${scrollValue}%)';
 };
+
+
 
 window.onscroll = clacScrollValue;
 window.onload = clacScrollValue;
